@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology to Mom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b34a4a;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #ece6e6;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .signature {
+            font-style: italic;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition-duration: 0.4s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Apology to Mom</h1>
+        <p>Dear Mom,</p>
+        <p>I know you are very upset and dissappointed of how i turned out to be.</p>
+        <p>I know it pains you a lot the fact that you have and still are sacrificing a lot for us,</p>
+        <p>for you to just hear the nonsense i was uttering yesterday.</p>
+        <p>Truth be told whatever i was saying yesterday was a lie, what kind of person doesn't know what to do with their future?</p>
+        <p>The truth is actually something has been bothering me a lot and i haven't told someone about it,</p>
+        <p>even my teacher noticed it but it was already late.</p>
+        <p>Mom ever since that incident i had in school i have never been the same.</p>
+        <p>It came to my realisation that i had let a large number of people down,</p>
+        <P>especially my mentors(you,dad and the teachers).</P>
+        <P>I thought that was my turning point,i told myself i have to recover from this,</P>
+        <P>i tried but i ended up failing, i did not even achieve my objectives. </P>
+        <p>Since then the trauma has been following me,</p>
+        <P>I am a failure that's something that has been eating me up the whole time</P>
+        <p>i have never been the same.</p>
+        <p>It has affected me big time even now</p>
+        <p>My teacher noticed i was not alright stating my contribution in class has decreased.</p>
+        <p>We had a one on one session with him but it did not help.</p>
+        <p>One solution he gave me was to either go to the counsellor or actually talk to somebody close</p>
+        <p>I thought i could talk to you but i did not know how to put it.</p>
+        <P>I'm so sorry.
+            And thank you for everything.
+        </P>
+        <p class="signature">With sincere apologies,<br>[Your loving son,
+            Raph]</p>
+        <button class="button" onclick="showApology()">Show Apology</button>
+        <p id="apologyMessage" class="hidden">I am so sorry. </p>
+    </div>
+
+    <script>
+        function showApology() {
+            var apologyMessage = document.getElementById('apologyMessage');
+            apologyMessage.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
